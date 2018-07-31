@@ -1,0 +1,48 @@
+html {
+  background-color: gray;
+  font-size: 16px;
+  color: black;
+}
+
+/*header style */
+header {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/*header logo and nav styling */
+
+.desktop-logo .desktop-nav {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-logo {
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.colmar {
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  margin-right: 3rem;
+}
+
+nav li {
+  padding-left: 1rem;
+}
