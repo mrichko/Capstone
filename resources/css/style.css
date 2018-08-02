@@ -255,3 +255,48 @@ nav li {
 .course-info p {
   margin-top: 1rem;
 }
+
+/* thesis section */
+
+
+.thesis-section h2 {
+  text-align: center;
+}
+
+}
+.thesis-layout {
+  display: flex;
+}
+
+.thesis-left {
+  width: 60%;
+}
+
+.thesis-videofile video {
+  width: 100%;
+}
+
+.thesis-right {
+  width: 40%;
+}
+
+.thesis-info {
+  display: flex;
+  width: 100%;
+}
+
+.thesis-info-image {
+  width: 35%;
+}
+
+.thesis-info-image img {
+  width: 100%;
+}
+
+.thesis-info-text {
+  text-align: left;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
