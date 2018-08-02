@@ -258,9 +258,14 @@ nav li {
 
 /* thesis section */
 
+.thesis-section {
+}
 
 .thesis-section h2 {
   text-align: center;
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 }
@@ -270,6 +275,16 @@ nav li {
 
 .thesis-left {
   width: 60%;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.thesis-videotext h3 {
+  padding-top: 1.5rem;
+}
+
+.thesis-videotext p {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .thesis-videofile video {
