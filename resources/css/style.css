@@ -192,3 +192,66 @@ nav li {
 .info-text p {
   margin-top: .5rem;
 }
+
+#lecture {
+  background-color: Gainsboro;
+}
+
+/*courses section */
+
+.courses {
+  max-width: 100%;
+  text-align: center;
+  padding: 2rem 4.5rem;
+  background-color: seashell;
+}
+
+.courses h2 {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+.course-menu {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.course {
+  width: 33.33%;
+  background-color: white;
+  margin:1rem 1rem;
+
+}
+
+.course-section {
+  display: flex;
+  width: 100%;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.course-info {
+  height: 8rem;
+  text-align: left;
+  padding: 1rem .5rem .5rem .5rem;
+}
+
+.course-info h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.capital {
+  text-transform: uppercase;
+}
+
+.course-info p {
+  margin-top: 1rem;
+}
