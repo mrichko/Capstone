@@ -315,3 +315,23 @@ nav li {
   flex-direction: column;
   justify-content: center;
 }
+
+
+/*footer*/
+
+footer {
+  position: relative;
+  display: flex;
+  top: 4rem;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  justify-content: space-between;
+  width: 100%;
+  border: solid black 1px;
+}
+
+.terms-and-privacy li {
+  display: inline-block;
+  margin-right: 2rem;
+  height: 4rem;
+}
