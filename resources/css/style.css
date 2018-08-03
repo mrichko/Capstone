@@ -76,7 +76,7 @@ nav li {
 /* left side image */
 .intro-image {
   width: 60%;
-  padding: 2rem 1.5rem;
+  padding: 2rem 0 2rem 1.5rem;
 }
 
 .intro-image img {
@@ -195,7 +195,8 @@ nav li {
 }
 
 .info-text p {
-  margin-top: -1.2rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 #lecture {
@@ -243,12 +244,13 @@ nav li {
 .course-info {
   height: 8rem;
   text-align: left;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   padding-left: 1rem;
 }
 
 .course-info h3 {
   margin-bottom: 1rem;
+  margin-top: 1rem;
   font-size: 1.25rem;
 }
 
@@ -284,6 +286,8 @@ nav li {
 
 .thesis-videotext h3 {
   padding-top: 1.5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .thesis-videotext p {
@@ -311,6 +315,7 @@ nav li {
 
 .thesis-info p {
   font-size: 1rem;
+  margin-top: .5rem;
 }
 
 .thesis-info-image {
@@ -349,6 +354,6 @@ footer {
 
 .terms-and-privacy li {
   display: inline-block;
-  margin-right: 2rem;
+  margin-right: 3rem;
   height: 4rem;
 }
