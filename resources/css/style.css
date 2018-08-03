@@ -70,7 +70,6 @@ nav li {
 .intro-container {
   display: flex;
   align-items: center;
-  width: 100%;
   background-color: lightgray;
 }
 
@@ -119,7 +118,6 @@ nav li {
 
 .orientation-container {
   display: flex;
-  width: 100%;
 }
 
 .orientation-image {
@@ -207,7 +205,6 @@ nav li {
 /*courses section */
 
 .courses {
-  max-width: 100%;
   text-align: center;
   padding: 2rem 4.5rem;
   background-color: seashell;
@@ -236,7 +233,6 @@ nav li {
 
 .course-section {
   display: flex;
-  width: 100%;
 }
 
 .course img {
@@ -305,7 +301,6 @@ nav li {
 
 .thesis-info {
   display: flex;
-  width: 100%;
   padding-top: 1rem;
 }
 
