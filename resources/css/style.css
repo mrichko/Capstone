@@ -37,7 +37,6 @@ header {
 .desktop-nav {
   display: flex;
   align-items: center;
-  padding-right: 3rem;
 }
 
 .mobile-nav {
@@ -151,6 +150,30 @@ nav a {
   color: white;
   font-weight: bolder;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width; 480px) {
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.intro-greeting {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+.intro-image {
+  width: 100%;
+}
+
+.button {
+  width: 90%;
+}
+
 }
 
 /*orientation left image section*/
