@@ -37,6 +37,7 @@ header {
 .desktop-nav {
   display: flex;
   align-items: center;
+  padding-right: 3rem;
 }
 
 .upper {
@@ -52,7 +53,7 @@ header nav ul {
   margin-right: 3rem;
 }
 
-nav li {
+nav a {
   padding-left: 1rem;
   color: maroon;
   list-style: none;
@@ -112,6 +113,12 @@ nav li {
   color: white;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.button a {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 
 /*orientation left image section*/
@@ -212,10 +219,9 @@ nav li {
 }
 
 .courses h2 {
-  padding: 2rem 0;
+  padding: 1rem 0;
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 1rem;
 }
 
 
@@ -349,11 +355,14 @@ footer {
   padding-left: 1.5rem;
   justify-content: space-between;
   width: 100%;
-  border: solid black 1px;
 }
 
-.terms-and-privacy li {
+.terms-and-privacy {
+  padding-right: 2rem;
+}
+
+.terms-and-privacy a {
   display: inline-block;
-  margin-right: 3rem;
+  margin-right: 1.5rem;
   height: 4rem;
 }
