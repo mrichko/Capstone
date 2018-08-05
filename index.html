@@ -30,12 +30,7 @@
       <li><a href="#">For Companies</a></li>
       <li><a href="#">Sign In</a></li>
     </ul>
-
   </div>
-</nav>
-
-<!-- mobile nav menu -->
-<nav>
   <div class="mobile-nav">
     <nav>
       <ul>
@@ -46,7 +41,11 @@
       </ul>
     </nav>
   </div>
+
 </nav>
+
+<!-- mobile nav menu -->
+
 
 
 </header>
@@ -91,7 +90,8 @@
   <!-- first image -->
   <div class="orientation-info">
     <div class="info-image">
-      <img src="resources/images/information-orientation.jpg" alt="Students on Campus">
+      <img class="desktop-image"src="resources/images/information-orientation.jpg" alt="Students on Campus">
+      <img class="mobile-image" src="resources/images/information-orientation-mobile.jpg" alt="Students on Campus">
     </div>
     <div class="info-text">
       <h3>Orientation Date</h3>
@@ -103,7 +103,8 @@
 <!-- second image -->
   <div class="orientation-info">
     <div class="info-image">
-      <img src="./resources/images/information-campus.jpg" alt="Classroom">
+      <img class="desktop-image" src="./resources/images/information-campus.jpg" alt="Classroom">
+      <img class="mobile-image" src="resources/images/information-campus-mobile.jpg" alt="Classroom">
     </div>
     <div class="info-text">
       <h3>Our Campus</h3>
@@ -115,7 +116,8 @@
 <!-- third image -->
   <div class="orientation-info" id="lecture">
     <div class="info-image">
-      <img src="resources/images/information-guest-lecture.jpg" alt="Guest Speaker">
+      <img class="desktop-image" src="resources/images/information-guest-lecture.jpg" alt="Guest Speaker">
+      <img class="mobile-image" src="resources/images/information-guest-lecture-mobile.jpg" alt="Guest Speaker">
     </div>
     <div class="info-text">
       <h3>Our Guest Lecture</h3>
@@ -130,7 +132,7 @@
 <!--courses section -->
 
 <div class="courses">
-    <h2>Start Learning</h2>
+  <h2>Start Learning</h2>
   <div class="course-menu">
 
     <div class="course-section">
@@ -174,9 +176,8 @@
             </div>
           </div>
         </div>
+        </div>
 
-
-</div>
 <!--section course section-->
 
 <div class="course-section">
@@ -221,8 +222,22 @@
       </div>
 
     </div>
-
 </div>
+</div>
+
+  <div class="courses-mobile">
+    <h2>Start Learning</h2>
+
+    <div class="mobile-course">
+      <h4>Software Engineering</h4>
+      <h4>Computer Art</h4>
+      <h4>Design</h4>
+      <h4>Data</h4>
+      <h4>Business</h4>
+      <h4>Marketing</h4>
+    </div>
+  </div>
+
 </div>
 
 <!--thesis section -->
@@ -233,7 +248,7 @@
   <div class="thesis-layout">
     <div class="thesis-left">
       <div class="thesis-videofile">
-        <video src="./resources/videos/thesis.mp4" muted autoplay> Video not supported</video>
+        <video src="./resources/videos/thesis.mp4" muted  controls> Video not supported</video>
       </div>
       <div class="thesis-videotext">
         <h3>Reimagine Urban</h3>
@@ -283,7 +298,6 @@
     <a href="#">Terms</a>
     <a href="#">Privacy</a>
   </div>
-
 </footer>
 
   </body>
