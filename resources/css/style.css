@@ -64,7 +64,7 @@ nav a {
 
 /*header media query*/
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 470px){
 
   .desktop-nav,
   .desktop-logo {
@@ -159,7 +159,7 @@ nav a {
 
 /*intro media query*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
 
 .intro-container {
   display: flex;
@@ -282,7 +282,7 @@ nav a {
 /*orientation media query*/
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
 
   .orientation-text, .orientation-image {
     display: none;
@@ -383,7 +383,7 @@ nav a {
 
 /* courses media query*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   .courses{
     display: none;
   }
@@ -502,7 +502,7 @@ nav a {
 
 /*thesis media query */
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 470px){
 
   .thesis-section {
     padding-top: 2rem;
@@ -529,7 +529,7 @@ footer {
   padding-top: 1rem;
   justify-content: space-between;
   width: 100%;
-  background-color: red;
+  background-color: lightgrey;
 }
 
 .terms-and-privacy {
@@ -548,7 +548,7 @@ footer {
 
 /* footer media query */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
 
   footer {
     padding-bottom: 2rem;
