@@ -1,5 +1,5 @@
 html, body{
-  background-color: white;
+  background-color: #30C2B3;
   font-size: 16px;
   color: black;
   font-family: 'Poppins', sans-serif;
@@ -56,6 +56,12 @@ nav a {
   padding-left: 1rem;
   color: maroon;
   list-style: none;
+  font-weight: bold;
+}
+
+.desktop-nav a:hover {
+  text-decoration: underline;
+  font-weight: lighter;
 }
 
 /*header media query*/
@@ -95,9 +101,7 @@ nav a {
 
 }
 
-.desktop-nav a:hover {
-  text-decoration: underline;
-}
+
 
 /* main page content*/
 
@@ -406,6 +410,7 @@ nav a {
 .course-image:hover {
   background-color: #3EFAE6;
   border-radius: 30px;
+  font-style: italic;
 }
 
 
