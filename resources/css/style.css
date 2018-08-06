@@ -411,7 +411,7 @@ nav a {
 
 .course-image:hover {
   background-color: #3EFAE6;
-  border-radius: 30px;
+  border-radius: 20px;
   font-style: italic;
 }
 
@@ -545,22 +545,26 @@ nav a {
 
 .thesis-right {
   width: 40%;
-  color: #30C2B3;
 }
 
 .thesis-info {
   display: flex;
   padding-top: 1rem;
+  background-color: #A88D8B;
 }
 
 .thesis-info:hover {
   color: white;
+  width: 102%;
+  transition: all, 900ms, linear, 400ms;
+
 }
+
 
 .thesis-info h3 {
   font-size: 1.20rem;
   font-weight: 600;
-  color: #30C2B3;
+  color: #400106;
 }
 
 .thesis-info p {
