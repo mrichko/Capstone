@@ -482,17 +482,16 @@ nav a {
 
   .mobile-course {
     padding-bottom: 2rem;
+    width: 85%;
+    align-items: center;
   }
 
   .mobile-course h4 {
     background-color: #A88D8B;
     padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-bottom: .5rem;
-    width: 400px;
+    margin-bottom: .75rem;
     padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     font-weight: bold;
     font-size: 1.3rem;
     border-radius: 20px;
