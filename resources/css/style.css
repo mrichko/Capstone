@@ -375,15 +375,15 @@ nav a {
 #infohover:hover {
     background-color: #8C031C;
   }
-  }
 
 }
+
+
 
 /*courses section */
 
 .courses {
   text-align: center;
-  padding: 2rem 4.5rem;
 }
 
 .courses h2 {
@@ -644,6 +644,7 @@ footer {
   color: white;
   font-weight: bold;
 }
+
 
 /* footer media query */
 
