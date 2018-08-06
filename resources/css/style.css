@@ -86,6 +86,7 @@ nav a {
 
   .mobile-nav {
     display: flex;
+    width: 100%;
   }
 
 
