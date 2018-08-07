@@ -71,7 +71,7 @@ nav a {
 
 /*header media query*/
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 750px){
   header {
     max-width: 100%;
   }
@@ -194,7 +194,7 @@ nav a {
 
 /*intro media query*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 750px) {
 
 .intro-container {
   display: flex;
@@ -339,7 +339,7 @@ nav a {
 /*orientation media query*/
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 750px) {
 
   .orientation-text, .orientation-image {
     display: none;
@@ -467,7 +467,7 @@ nav a {
 
 /* courses media query*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 750px) {
   .courses{
     display: none;
   }
@@ -608,7 +608,7 @@ nav a {
 
 /*thesis media query */
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 750px){
 
 
   .thesis-videotext, .thesis-right {
@@ -659,7 +659,7 @@ footer {
 
 /* footer media query */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 750px) {
 
   footer {
     padding-bottom: 2rem;
