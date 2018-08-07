@@ -172,6 +172,7 @@ nav a {
   padding-bottom: 1rem;
   border-radius: 25px;
   box-shadow: 3px 3px black;
+  margin-bottom: 2rem;
 
 }
 
@@ -179,7 +180,6 @@ nav a {
   font-weight: bolder;
   color: white;
   font-size: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .button:hover {
@@ -418,9 +418,8 @@ nav a {
   border-radius: 20px;
 }
 
-.course-image:hover {
+.course:hover {
   background-color: #3EFAE6;
-  border-radius: 20px;
   font-style: italic;
 }
 
@@ -438,10 +437,10 @@ nav a {
 }
 
 .course-info {
-  height: 8rem;
   text-align: left;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .course-info h3 {
