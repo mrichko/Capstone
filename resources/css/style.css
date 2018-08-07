@@ -20,7 +20,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 1;
-  background-color: #30C2B3;
+  background-color: #B6BFB0;
   justify-content: space-between;
   align-items: center;
   padding-left: 1rem;
@@ -150,8 +150,9 @@ nav a {
   font-size: 2.5rem;
   font-weight: bold;
   padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
   width: 90%;
-  color: #30C2B3;
+  color: #B6BFB0;
 }
 
 .intro-greeting h2 {
@@ -163,7 +164,7 @@ nav a {
 
 .button {
   display: flex;
-  background-color: #A88D8B;
+  background-color: #B6BFB0;
   width: 75%;
   align-items: center;
   color: white;
@@ -225,7 +226,7 @@ nav a {
 
 .orientation-container {
   display: flex;
-  background-color: #A88D8B;
+  background-color: #B6BFB0;
 }
 
 .orientation-image {
@@ -290,8 +291,9 @@ nav a {
 .orientation-info:hover {
   border-left: 2px solid black;
   border-bottom: 2px solid black;
-  background-color: #30C2B3;
+  background-color: #F2ECD8;
   transition: all, 300ms, linear, 500ms;
+  color: black;
 }
 
 
@@ -381,7 +383,7 @@ nav a {
   }
 
 #infohover:hover {
-    background-color: #8C031C;
+    background-color: #F2ECD8;
   }
 
 }
@@ -414,12 +416,12 @@ nav a {
 .course {
   width: 33.33%;
   margin:1rem 1rem;
-  background-color: #30C2B3;
+  background-color: #B6BFB0;
   border-radius: 20px;
 }
 
 .course:hover {
-  background-color: #3EFAE6;
+  background-color: #F2ECD8;
   font-style: italic;
 }
 
@@ -479,7 +481,7 @@ nav a {
   }
 
   .courses-mobile h2 {
-    color: #30C2B3;
+    color: #B6BFB0;
     font-size: 2rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
@@ -493,7 +495,7 @@ nav a {
   }
 
   .mobile-course h4 {
-    background-color: #A88D8B;
+    background-color: #B6BFB0;
     padding-top: 1rem;
     margin-bottom: .75rem;
     padding-left: 1rem;
@@ -519,20 +521,20 @@ nav a {
   padding: 2rem 0;
   font-size: 2rem;
   font-weight: bolder;
-  color: #30C2B3;
-  background-color: #400106;
+  color: #8C031C;
+  background-color: #B6BFB0;
 }
 
 
 .thesis-layout {
   display: flex;
-  background-color: #400106;
+  background-color: #B6BFB0;
 }
 
 .thesis-left {
   width: 60%;
   padding: 0 1.5rem 1.5rem 1.5rem;
-  color: #30C2B3;
+  color: #8C031C;
 }
 
 .thesis-videotext h3 {
@@ -631,7 +633,7 @@ footer {
   justify-content: space-between;
   width: 100%;
   background-color: #8C031C;
-  color: #30C2B3;
+  color: #B6BFB0;
 }
 
 .terms-and-privacy {
