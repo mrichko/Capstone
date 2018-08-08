@@ -167,7 +167,6 @@ nav a {
   background-color: #B6BFB0;
   width: 75%;
   align-items: center;
-  color: white;
   justify-content: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -179,7 +178,7 @@ nav a {
 
 .button a {
   font-weight: bolder;
-  color: white;
+  color: #8C031C;
   font-size: 1.5rem;
 }
 
@@ -328,16 +327,14 @@ nav a {
 
 .info-text a {
   font-style: oblique;
-  color: white;
+  color: #8C031C;
 }
 
 .info-text a:hover {
-  color: #26221F;
+  color: white;
 }
 
-
 /*orientation media query*/
-
 
 @media only screen and (max-width: 750px) {
 
@@ -385,10 +382,7 @@ nav a {
 #infohover:hover {
     background-color: #F2ECD8;
   }
-
 }
-
-
 
 /*courses section */
 
@@ -424,8 +418,6 @@ nav a {
   background-color: #F2ECD8;
   font-style: italic;
 }
-
-
 
 .course-section {
   display: flex;
@@ -503,6 +495,7 @@ nav a {
     font-weight: bold;
     font-size: 1.3rem;
     border-radius: 20px;
+    text-align: center;
   }
 
   .mobile-course h4:hover {
@@ -619,12 +612,9 @@ nav a {
     width: 100%;
     padding: 0;
   }
-
-
 }
 
 /*footer*/
-
 footer {
   position: relative;
   display: flex;
@@ -655,7 +645,6 @@ footer {
   color: white;
   font-weight: bold;
 }
-
 
 /* footer media query */
 
